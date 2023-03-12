@@ -1,3 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
 /*carousel css*/
 
 #carousel-wrapper {
@@ -35,7 +51,7 @@
     width: 50px;
     height: 50px;
     height: 100%;
-    background-color: rgb(25, 25, 25, );
+    background-color: rgb(167, 166, 166);
     border: none;
     color: white;
     font-size: 2rem;
@@ -63,12 +79,35 @@ body {
     padding: 20px;
     margin: 0px;
     position: relative;
+    height: 50px;
+    display: flex;
 }
 
 .welcome-message-wrapper {
     z-index: 2;
     position: absolute;
-    top: 72.9%;
+    top: 74%;
     width: 650px;
     padding-left: 30px;
+
+}
+
+h2 {
+    margin-left: 70px;
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+.rent-button {
+    margin-left: 70px;
+    margin-top: 7px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(236, 235, 235);
+    font-size: 20px;
+}
+
+.rent-button:hover {
+    cursor: pointer;
+    background-color: rgb(167, 166, 166);
 }
