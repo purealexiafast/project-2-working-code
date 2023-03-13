@@ -51,12 +51,21 @@ html {
     width: 50px;
     height: 50px;
     height: 100%;
-    background-color: rgb(167, 166, 166);
+    background-color: rgb(41, 40, 40);
     border: none;
     color: white;
     font-size: 2rem;
     cursor: pointer;
     z-index: 10;
+}
+
+
+#nextBtn:hover {
+    background-color: rgb(167, 166, 166);
+}
+
+#prevBtn:hover {
+    background-color: rgb(167, 166, 166);
 }
 
 #prevBtn {
@@ -90,17 +99,18 @@ body {
     width: 650px;
     padding-left: 30px;
 
+
 }
 
 h2 {
-    margin-left: 70px;
+    margin-left: 55px;
+    margin-right: 20px;
     font-size: 20px;
     margin-top: 15px;
 
 }
 
 .rent-button {
-    margin-left: 70px;
     margin-top: 7px;
     padding: 5px 10px 5px 10px;
     background-color: rgb(236, 235, 235);
@@ -109,5 +119,7 @@ h2 {
 
 .rent-button:hover {
     cursor: pointer;
-    background-color: rgb(167, 166, 166);
+    background-color: rgb(41, 40, 40);
+    color: rgb(236, 235, 235);
+    border: 2px solid rgb(236, 235, 235);
 }

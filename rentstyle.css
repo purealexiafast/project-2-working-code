@@ -1,0 +1,80 @@
+html {
+    background-image: url(public/javascript/css/images/1964_Ford_Mustang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+main {
+    z-index: 2;
+    background-color: rgba(223, 221, 221, 0.7);
+}
+
+
+form {
+    margin-top: 50px;
+
+}
+
+label {
+    margin-top: 20px;
+    display: block;
+    font-size: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(38, 38, 38);
+    background-color: #c9cbca;
+    color: rgb(38, 38, 38);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+
+img {
+    margin-left: 300px;
+    width: 50%;
+}
+
+h2 {
+    display: block;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+#flex-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#member {
+    margin-top: 70px;
+
+    padding: 1px;
+
+}
